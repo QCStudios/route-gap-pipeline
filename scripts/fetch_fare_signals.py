@@ -31,34 +31,52 @@ import yaml
 API_KEY = os.environ.get("FLIGHT_DATA_API_KEY")
 
 
+AVIATIONSTACK_BASE_URL = "http://api.aviationstack.com/v1"
+# NOTE: AviationStack's free plan only allows plain HTTP, not HTTPS — using
+# https:// here will fail on the free tier with a 401. Switch to https once
+# you upgrade off the free plan.
+#
+# NOTE 2: AviationStack's own FAQ says airline route data ("routes" endpoint)
+# requires a commercial/paid subscription, not just the free plan. Confirm
+# this against your actual account once signed in — if the free tier really
+# doesn't include /routes, the /flights endpoint (filtered by dep_iata +
+# arr_iata + a specific flight_date) is the free-tier workaround: an empty
+# result set for a route over several sampled dates is a reasonable (if
+# noisier) proxy for "no direct service."
+
+
 def check_route_exists(origin: str, destination: str) -> dict:
     """
-    Replace this with a real call to your chosen provider.
-    Returns something like:
-      {"origin": "NCL", "destination": "IST", "direct_route_exists": False,
-       "nearest_connecting_options": [...], "typical_fare_gbp": None}
+    Calls AviationStack's routes endpoint to check whether a direct route
+    exists between origin and destination. Returns:
+      {"origin": "NCL", "destination": "IST", "direct_route_exists": bool|None}
 
-    Stub below shows the shape without making a real network call — wire up
-    your provider's actual endpoint here.
+    direct_route_exists is None if the API call itself failed (e.g. free
+    tier lacks access to /routes) rather than a confirmed "no route" —
+    keep this distinction, don't silently treat a failed call as a gap.
     """
     if not API_KEY:
         raise RuntimeError(
             "Set FLIGHT_DATA_API_KEY env var (GitHub Actions secret) before running."
         )
 
-    # Example shape for AviationStack-style route lookup — replace URL/params
-    # with your provider's actual route-search endpoint.
-    # resp = requests.get(
-    #     "https://api.aviationstack.com/v1/routes",
-    #     params={"access_key": API_KEY, "dep_iata": origin, "arr_iata": destination},
-    #     timeout=15,
-    # )
-    # resp.raise_for_status()
-    # data = resp.json()
-    # direct_exists = len(data.get("data", [])) > 0
+    resp = requests.get(
+        f"{AVIATIONSTACK_BASE_URL}/routes",
+        params={"access_key": API_KEY, "dep_iata": origin, "arr_iata": destination},
+        timeout=15,
+    )
 
-    # Placeholder until wired up:
-    direct_exists = None
+    if resp.status_code != 200:
+        print(
+            f"WARN: routes lookup failed for {origin}->{destination} "
+            f"(status {resp.status_code}: {resp.text[:200]}). "
+            "If this is a 401/403, your plan likely doesn't include /routes — "
+            "see notes above about the /flights fallback."
+        )
+        return {"origin": origin, "destination": destination, "direct_route_exists": None}
+
+    data = resp.json()
+    direct_exists = len(data.get("data", [])) > 0
 
     return {
         "origin": origin,

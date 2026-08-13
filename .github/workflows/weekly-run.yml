@@ -33,10 +33,10 @@ jobs:
         working-directory: scripts
         run: python analyze_gaps.py
 
-      - name: Commit new reports
+      - name: Commit new gap data
         run: |
           git config user.name "route-gap-bot"
           git config user.email "actions@github.com"
-          git add reports/ data/
-          git diff --cached --quiet || git commit -m "Weekly route gap report $(date -u +%F)"
+          git add data/
+          git diff --cached --quiet || git commit -m "Weekly gap data $(date -u +%F)"
           git push

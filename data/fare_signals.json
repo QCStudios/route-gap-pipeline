@@ -1,0 +1,68 @@
+[
+  {
+    "origin": "NCL",
+    "destination": "IST",
+    "direct_route_exists": null,
+    "dates_checked": [
+      "2026-08-15",
+      "2026-08-17",
+      "2026-08-19"
+    ],
+    "flights_found": 0
+  },
+  {
+    "origin": "NCL",
+    "destination": "ZRH",
+    "direct_route_exists": null,
+    "dates_checked": [
+      "2026-08-15",
+      "2026-08-17",
+      "2026-08-19"
+    ],
+    "flights_found": 0
+  },
+  {
+    "origin": "NCL",
+    "destination": "MAD",
+    "direct_route_exists": null,
+    "dates_checked": [
+      "2026-08-15",
+      "2026-08-17",
+      "2026-08-19"
+    ],
+    "flights_found": 0
+  },
+  {
+    "origin": "NCL",
+    "destination": "BCN",
+    "direct_route_exists": null,
+    "dates_checked": [
+      "2026-08-15",
+      "2026-08-17",
+      "2026-08-19"
+    ],
+    "flights_found": 0
+  },
+  {
+    "origin": "NCL",
+    "destination": "MXP",
+    "direct_route_exists": null,
+    "dates_checked": [
+      "2026-08-15",
+      "2026-08-17",
+      "2026-08-19"
+    ],
+    "flights_found": 0
+  },
+  {
+    "origin": "NCL",
+    "destination": "ATH",
+    "direct_route_exists": null,
+    "dates_checked": [
+      "2026-08-15",
+      "2026-08-17",
+      "2026-08-19"
+    ],
+    "flights_found": 0
+  }
+]

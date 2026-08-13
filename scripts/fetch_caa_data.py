@@ -41,7 +41,7 @@ def fetch_caa_dataset(out_path: Path) -> None:
     This stub fetches a placeholder — replace CAA_DATA_URL with the real
     current link before first run.
     """
-    CAA_DATA_URL = "https://www.caa.co.uk/Documents/Download/26833/11a95c0b-983c-49fc-ba36-4599da419397/17755"  # noqa: N806
+    CAA_DATA_URL = "https://www.caa.co.uk/Documents/Download/26833/11a95c0b-983c-49fc-ba36-4599da419397/17752"  # noqa: N806
 
     if CAA_DATA_URL.startswith("REPLACE"):
         print(

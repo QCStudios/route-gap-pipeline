@@ -33,12 +33,6 @@ jobs:
         working-directory: scripts
         run: python analyze_gaps.py
 
-      - name: Generate reports
-        working-directory: scripts
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: python generate_report.py
-
       - name: Commit new reports
         run: |
           git config user.name "route-gap-bot"

@@ -1,1 +1,31 @@
+# Airports to track. IATA codes.
+# Start with regional airports actively expanding as of mid-2026 —
+# they're the ones most likely to act on a gap report.
+airports:
+  - code: NCL
+    name: Newcastle International
+  - code: BRS
+    name: Bristol
+  - code: LPL
+    name: Liverpool John Lennon
+  - code: SOU
+    name: Southampton
+  - code: GLA
+    name: Glasgow
+  - code: BFS
+    name: Belfast International
 
+# Candidate destinations to check for "gap" status (no direct route from
+# the airports above, but real search/fare demand). Extend this list once
+# the first few reports show which categories of destination matter most.
+candidate_destinations:
+  - IST  # Istanbul
+  - ZRH  # Zurich
+  - MAD  # Madrid
+  - BCN  # Barcelona
+  - MXP  # Milan
+  - ATH  # Athens
+  - LIS  # Lisbon
+  - CDG  # Paris
+  - AMS  # Amsterdam
+  - DXB  # Dubai

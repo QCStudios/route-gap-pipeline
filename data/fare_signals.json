@@ -64,5 +64,71 @@
       "2026-08-19"
     ],
     "flights_found": 0
+  },
+  {
+    "origin": "NCL",
+    "destination": "LIS",
+    "direct_route_exists": null,
+    "dates_checked": [
+      "2026-08-19",
+      "2026-08-21",
+      "2026-08-23"
+    ],
+    "flights_found": 0
+  },
+  {
+    "origin": "NCL",
+    "destination": "CDG",
+    "direct_route_exists": null,
+    "dates_checked": [
+      "2026-08-19",
+      "2026-08-21",
+      "2026-08-23"
+    ],
+    "flights_found": 0
+  },
+  {
+    "origin": "NCL",
+    "destination": "AMS",
+    "direct_route_exists": null,
+    "dates_checked": [
+      "2026-08-19",
+      "2026-08-21",
+      "2026-08-23"
+    ],
+    "flights_found": 0
+  },
+  {
+    "origin": "NCL",
+    "destination": "DXB",
+    "direct_route_exists": null,
+    "dates_checked": [
+      "2026-08-19",
+      "2026-08-21",
+      "2026-08-23"
+    ],
+    "flights_found": 0
+  },
+  {
+    "origin": "BRS",
+    "destination": "IST",
+    "direct_route_exists": null,
+    "dates_checked": [
+      "2026-08-19",
+      "2026-08-21",
+      "2026-08-23"
+    ],
+    "flights_found": 0
+  },
+  {
+    "origin": "BRS",
+    "destination": "ZRH",
+    "direct_route_exists": null,
+    "dates_checked": [
+      "2026-08-19",
+      "2026-08-21",
+      "2026-08-23"
+    ],
+    "flights_found": 0
   }
 ]

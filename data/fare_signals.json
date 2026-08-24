@@ -130,5 +130,71 @@
       "2026-08-23"
     ],
     "flights_found": 0
+  },
+  {
+    "origin": "BRS",
+    "destination": "MAD",
+    "direct_route_exists": null,
+    "dates_checked": [
+      "2026-08-26",
+      "2026-08-28",
+      "2026-08-30"
+    ],
+    "flights_found": 0
+  },
+  {
+    "origin": "BRS",
+    "destination": "BCN",
+    "direct_route_exists": null,
+    "dates_checked": [
+      "2026-08-26",
+      "2026-08-28",
+      "2026-08-30"
+    ],
+    "flights_found": 0
+  },
+  {
+    "origin": "BRS",
+    "destination": "MXP",
+    "direct_route_exists": null,
+    "dates_checked": [
+      "2026-08-26",
+      "2026-08-28",
+      "2026-08-30"
+    ],
+    "flights_found": 0
+  },
+  {
+    "origin": "BRS",
+    "destination": "ATH",
+    "direct_route_exists": null,
+    "dates_checked": [
+      "2026-08-26",
+      "2026-08-28",
+      "2026-08-30"
+    ],
+    "flights_found": 0
+  },
+  {
+    "origin": "BRS",
+    "destination": "LIS",
+    "direct_route_exists": null,
+    "dates_checked": [
+      "2026-08-26",
+      "2026-08-28",
+      "2026-08-30"
+    ],
+    "flights_found": 0
+  },
+  {
+    "origin": "BRS",
+    "destination": "CDG",
+    "direct_route_exists": null,
+    "dates_checked": [
+      "2026-08-26",
+      "2026-08-28",
+      "2026-08-30"
+    ],
+    "flights_found": 0
   }
 ]

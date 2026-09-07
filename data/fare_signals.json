@@ -262,5 +262,71 @@
       "2026-09-06"
     ],
     "flights_found": 0
+  },
+  {
+    "origin": "LPL",
+    "destination": "MXP",
+    "direct_route_exists": null,
+    "dates_checked": [
+      "2026-09-09",
+      "2026-09-11",
+      "2026-09-13"
+    ],
+    "flights_found": 0
+  },
+  {
+    "origin": "LPL",
+    "destination": "ATH",
+    "direct_route_exists": null,
+    "dates_checked": [
+      "2026-09-09",
+      "2026-09-11",
+      "2026-09-13"
+    ],
+    "flights_found": 0
+  },
+  {
+    "origin": "LPL",
+    "destination": "LIS",
+    "direct_route_exists": null,
+    "dates_checked": [
+      "2026-09-09",
+      "2026-09-11",
+      "2026-09-13"
+    ],
+    "flights_found": 0
+  },
+  {
+    "origin": "LPL",
+    "destination": "CDG",
+    "direct_route_exists": null,
+    "dates_checked": [
+      "2026-09-09",
+      "2026-09-11",
+      "2026-09-13"
+    ],
+    "flights_found": 0
+  },
+  {
+    "origin": "LPL",
+    "destination": "AMS",
+    "direct_route_exists": null,
+    "dates_checked": [
+      "2026-09-09",
+      "2026-09-11",
+      "2026-09-13"
+    ],
+    "flights_found": 0
+  },
+  {
+    "origin": "LPL",
+    "destination": "DXB",
+    "direct_route_exists": null,
+    "dates_checked": [
+      "2026-09-09",
+      "2026-09-11",
+      "2026-09-13"
+    ],
+    "flights_found": 0
   }
 ]

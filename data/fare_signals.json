@@ -328,5 +328,71 @@
       "2026-09-13"
     ],
     "flights_found": 0
+  },
+  {
+    "origin": "SOU",
+    "destination": "IST",
+    "direct_route_exists": null,
+    "dates_checked": [
+      "2026-09-16",
+      "2026-09-18",
+      "2026-09-20"
+    ],
+    "flights_found": 0
+  },
+  {
+    "origin": "SOU",
+    "destination": "ZRH",
+    "direct_route_exists": null,
+    "dates_checked": [
+      "2026-09-16",
+      "2026-09-18",
+      "2026-09-20"
+    ],
+    "flights_found": 0
+  },
+  {
+    "origin": "SOU",
+    "destination": "MAD",
+    "direct_route_exists": null,
+    "dates_checked": [
+      "2026-09-16",
+      "2026-09-18",
+      "2026-09-20"
+    ],
+    "flights_found": 0
+  },
+  {
+    "origin": "SOU",
+    "destination": "BCN",
+    "direct_route_exists": null,
+    "dates_checked": [
+      "2026-09-16",
+      "2026-09-18",
+      "2026-09-20"
+    ],
+    "flights_found": 0
+  },
+  {
+    "origin": "SOU",
+    "destination": "MXP",
+    "direct_route_exists": null,
+    "dates_checked": [
+      "2026-09-16",
+      "2026-09-18",
+      "2026-09-20"
+    ],
+    "flights_found": 0
+  },
+  {
+    "origin": "SOU",
+    "destination": "ATH",
+    "direct_route_exists": null,
+    "dates_checked": [
+      "2026-09-16",
+      "2026-09-18",
+      "2026-09-20"
+    ],
+    "flights_found": 0
   }
 ]

@@ -460,5 +460,71 @@
       "2026-09-27"
     ],
     "flights_found": 0
+  },
+  {
+    "origin": "GLA",
+    "destination": "MAD",
+    "direct_route_exists": null,
+    "dates_checked": [
+      "2026-09-30",
+      "2026-10-02",
+      "2026-10-04"
+    ],
+    "flights_found": 0
+  },
+  {
+    "origin": "GLA",
+    "destination": "BCN",
+    "direct_route_exists": null,
+    "dates_checked": [
+      "2026-09-30",
+      "2026-10-02",
+      "2026-10-04"
+    ],
+    "flights_found": 0
+  },
+  {
+    "origin": "GLA",
+    "destination": "MXP",
+    "direct_route_exists": null,
+    "dates_checked": [
+      "2026-09-30",
+      "2026-10-02",
+      "2026-10-04"
+    ],
+    "flights_found": 0
+  },
+  {
+    "origin": "GLA",
+    "destination": "ATH",
+    "direct_route_exists": null,
+    "dates_checked": [
+      "2026-09-30",
+      "2026-10-02",
+      "2026-10-04"
+    ],
+    "flights_found": 0
+  },
+  {
+    "origin": "GLA",
+    "destination": "LIS",
+    "direct_route_exists": null,
+    "dates_checked": [
+      "2026-09-30",
+      "2026-10-02",
+      "2026-10-04"
+    ],
+    "flights_found": 0
+  },
+  {
+    "origin": "GLA",
+    "destination": "CDG",
+    "direct_route_exists": null,
+    "dates_checked": [
+      "2026-09-30",
+      "2026-10-02",
+      "2026-10-04"
+    ],
+    "flights_found": 0
   }
 ]

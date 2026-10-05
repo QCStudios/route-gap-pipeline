@@ -526,5 +526,71 @@
       "2026-10-04"
     ],
     "flights_found": 0
+  },
+  {
+    "origin": "GLA",
+    "destination": "AMS",
+    "direct_route_exists": null,
+    "dates_checked": [
+      "2026-10-07",
+      "2026-10-09",
+      "2026-10-11"
+    ],
+    "flights_found": 0
+  },
+  {
+    "origin": "GLA",
+    "destination": "DXB",
+    "direct_route_exists": null,
+    "dates_checked": [
+      "2026-10-07",
+      "2026-10-09",
+      "2026-10-11"
+    ],
+    "flights_found": 0
+  },
+  {
+    "origin": "BFS",
+    "destination": "IST",
+    "direct_route_exists": null,
+    "dates_checked": [
+      "2026-10-07",
+      "2026-10-09",
+      "2026-10-11"
+    ],
+    "flights_found": 0
+  },
+  {
+    "origin": "BFS",
+    "destination": "ZRH",
+    "direct_route_exists": null,
+    "dates_checked": [
+      "2026-10-07",
+      "2026-10-09",
+      "2026-10-11"
+    ],
+    "flights_found": 0
+  },
+  {
+    "origin": "BFS",
+    "destination": "MAD",
+    "direct_route_exists": null,
+    "dates_checked": [
+      "2026-10-07",
+      "2026-10-09",
+      "2026-10-11"
+    ],
+    "flights_found": 0
+  },
+  {
+    "origin": "BFS",
+    "destination": "BCN",
+    "direct_route_exists": null,
+    "dates_checked": [
+      "2026-10-07",
+      "2026-10-09",
+      "2026-10-11"
+    ],
+    "flights_found": 0
   }
 ]

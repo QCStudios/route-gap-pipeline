@@ -4,9 +4,9 @@
     "destination": "IST",
     "direct_route_exists": null,
     "dates_checked": [
-      "2026-08-15",
-      "2026-08-17",
-      "2026-08-19"
+      "2026-10-21",
+      "2026-10-23",
+      "2026-10-25"
     ],
     "flights_found": 0
   },
@@ -15,9 +15,9 @@
     "destination": "ZRH",
     "direct_route_exists": null,
     "dates_checked": [
-      "2026-08-15",
-      "2026-08-17",
-      "2026-08-19"
+      "2026-10-21",
+      "2026-10-23",
+      "2026-10-25"
     ],
     "flights_found": 0
   },
@@ -26,9 +26,9 @@
     "destination": "MAD",
     "direct_route_exists": null,
     "dates_checked": [
-      "2026-08-15",
-      "2026-08-17",
-      "2026-08-19"
+      "2026-10-21",
+      "2026-10-23",
+      "2026-10-25"
     ],
     "flights_found": 0
   },
@@ -37,9 +37,9 @@
     "destination": "BCN",
     "direct_route_exists": null,
     "dates_checked": [
-      "2026-08-15",
-      "2026-08-17",
-      "2026-08-19"
+      "2026-10-21",
+      "2026-10-23",
+      "2026-10-25"
     ],
     "flights_found": 0
   },
@@ -48,9 +48,9 @@
     "destination": "MXP",
     "direct_route_exists": null,
     "dates_checked": [
-      "2026-08-15",
-      "2026-08-17",
-      "2026-08-19"
+      "2026-10-21",
+      "2026-10-23",
+      "2026-10-25"
     ],
     "flights_found": 0
   },
@@ -59,9 +59,9 @@
     "destination": "ATH",
     "direct_route_exists": null,
     "dates_checked": [
-      "2026-08-15",
-      "2026-08-17",
-      "2026-08-19"
+      "2026-10-21",
+      "2026-10-23",
+      "2026-10-25"
     ],
     "flights_found": 0
   },

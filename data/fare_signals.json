@@ -268,9 +268,9 @@
     "destination": "MXP",
     "direct_route_exists": null,
     "dates_checked": [
-      "2026-09-09",
-      "2026-09-11",
-      "2026-09-13"
+      "2026-11-18",
+      "2026-11-20",
+      "2026-11-22"
     ],
     "flights_found": 0
   },
@@ -279,9 +279,9 @@
     "destination": "ATH",
     "direct_route_exists": null,
     "dates_checked": [
-      "2026-09-09",
-      "2026-09-11",
-      "2026-09-13"
+      "2026-11-18",
+      "2026-11-20",
+      "2026-11-22"
     ],
     "flights_found": 0
   },
@@ -290,9 +290,9 @@
     "destination": "LIS",
     "direct_route_exists": null,
     "dates_checked": [
-      "2026-09-09",
-      "2026-09-11",
-      "2026-09-13"
+      "2026-11-18",
+      "2026-11-20",
+      "2026-11-22"
     ],
     "flights_found": 0
   },
@@ -301,9 +301,9 @@
     "destination": "CDG",
     "direct_route_exists": null,
     "dates_checked": [
-      "2026-09-09",
-      "2026-09-11",
-      "2026-09-13"
+      "2026-11-18",
+      "2026-11-20",
+      "2026-11-22"
     ],
     "flights_found": 0
   },
@@ -312,9 +312,9 @@
     "destination": "AMS",
     "direct_route_exists": null,
     "dates_checked": [
-      "2026-09-09",
-      "2026-09-11",
-      "2026-09-13"
+      "2026-11-18",
+      "2026-11-20",
+      "2026-11-22"
     ],
     "flights_found": 0
   },
@@ -323,9 +323,9 @@
     "destination": "DXB",
     "direct_route_exists": null,
     "dates_checked": [
-      "2026-09-09",
-      "2026-09-11",
-      "2026-09-13"
+      "2026-11-18",
+      "2026-11-20",
+      "2026-11-22"
     ],
     "flights_found": 0
   },
